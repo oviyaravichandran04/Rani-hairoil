@@ -1,0 +1,63 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the content vertically and horizontally */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container for the payment methods */
+.payment-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+}
+
+.payment-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Style for each payment option */
+.payment-option {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.payment-option input[type="radio"] {
+    margin-right: 10px;
+}
+
+.payment-option label {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Button style */
+button {
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f60;
+}
